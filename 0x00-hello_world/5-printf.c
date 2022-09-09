@@ -1,5 +1,8 @@
 #include<stdio.h>
-/* printing a new message*/
+/**
+ * printing a new message
+ * Return: Always 0 (Success)
+ */
 int main(void)
 
 {
