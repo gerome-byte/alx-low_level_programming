@@ -1,5 +1,8 @@
 #include<stdio.h>
-/** printing a new message
+/**
+ * main - entry point
+ * description: 'printing a new message'
+ *
  * Return: Always 0 (Success)
  */
 
