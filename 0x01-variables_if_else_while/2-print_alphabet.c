@@ -2,11 +2,11 @@
 
 /**
  *
- *  * main - Prints the alphabet.
+ * main - Entry
+ * Desctrption: Prints the alphabet
  *
- *   *
  *
- *    * Return: Always 0 (Success)
+ *  Return: Always 0 (Success)
  *
  */
 
