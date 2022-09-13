@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
- * main - prints Putchar
+ * main - Entry point
  *
  * Description: prints _putchar
  *
@@ -9,10 +9,8 @@
  */
 
 int main(void)
-	/**
-	 * main - prints Putchar
-	 * return: 0 (Success)
-	 */
+
+
 
 {
 	_putchar('_');
