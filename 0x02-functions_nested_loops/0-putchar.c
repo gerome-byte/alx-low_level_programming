@@ -9,6 +9,10 @@
  */
 
 int main(void)
+	/**
+	 * main - prints Putchar
+	 * return: 0 (Success)
+	 */
 
 {
 	_putchar('_');
