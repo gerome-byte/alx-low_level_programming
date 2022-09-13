@@ -3,13 +3,12 @@
 /**
  * main - prints Putchar
  *
- * description: prints _putchar
+ * Description: prints _putchar
  *
  * return: 0 (Success)
  */
 
 int main(void)
-
 
 {
 	_putchar('_');
