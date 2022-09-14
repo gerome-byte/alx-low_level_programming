@@ -5,7 +5,7 @@
  * jack_bauer - prints time
  *
  *
- * Description: prints a list of time
+ *
  * Return: Always 0.
  */
 
