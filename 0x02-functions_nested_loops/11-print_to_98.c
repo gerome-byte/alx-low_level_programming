@@ -7,7 +7,6 @@
  *
  * @n: A input integer
  *
- * Description: function that prints all natural numbers
  * from n to 98, followed by a new line.
  *
  * Return: Nothing
@@ -24,17 +23,14 @@ void print_to_98(int n)
 			for (; n <= 98; n++)
 			{
 
-			printf("%d", n);
+				printf("%d", n);
+														if (n == 98)
+				continue;
 
-													if (n == 98)
-
-			continue;
-
-			printf(", ");
+				printf(", ");
 			}
 
 		printf("\n");
-
 		}
 
 		else
@@ -43,15 +39,12 @@ void print_to_98(int n)
 			for (; n >= 98; n--)
 
 			{
-
 			printf("%d", n);
 
 			if (n == 98)
-
 			continue;
 
 			printf(", ");
-
 			}
 
 		printf("\n");
