@@ -7,7 +7,7 @@
  * return: dest
  */
 
-void char *_strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 
 {
 
@@ -31,5 +31,5 @@ void char *_strcat(char *dest, char *src)
 	}
 	dest[i] = '\0';
 
-	return dest;
+	return (dest);
 }
