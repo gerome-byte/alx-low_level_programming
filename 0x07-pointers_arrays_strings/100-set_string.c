@@ -4,6 +4,7 @@
  * set_string - sets a string
  * @s: string to set
  * @to: value to set to
+ * Return: no return
  */
 void set_string(char **s, char *to)
 
