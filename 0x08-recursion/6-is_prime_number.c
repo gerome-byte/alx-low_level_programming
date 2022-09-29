@@ -7,7 +7,7 @@
  */
 int helper(int i, int n)
 {
-	f (n % i == 0 && n != i)
+	if (n % i == 0 && n != i)
 		return (0);
 	if (n % i != 0 && i < n)
 		return (helper(i + 1, n));
@@ -25,5 +25,5 @@ int is_prime_number(int n)
 
 	if (n < 2)
 		return (0);
-	return (helper(i,n));
+	return (helper(i, n));
 }
