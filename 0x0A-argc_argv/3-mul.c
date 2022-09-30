@@ -11,9 +11,9 @@
 int main(int argc, char *argv[])
 {
 
-	if (argc == 3)
+	if (argc == 2)
 	{
-		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+		printf("%d\n", atoi(argv[0]) * atoi(argv[1]));
 
 	}
 	else
