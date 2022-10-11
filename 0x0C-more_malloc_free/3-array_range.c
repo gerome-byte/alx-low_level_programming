@@ -1,6 +1,6 @@
 #include "main.h"
  /**
-  * array_range - Creates an array of integers
+  * array_range - range of arrays
   * @min: min integer
   * @max:max integer.
   * Return: pointer to the newly created array.
@@ -21,7 +21,7 @@ int *array_range(int min, int max)
 	if (!s)
 		return (NULL);
 	i = 0;
-	while( min <= max)
+	while (min <= max)
 	{
 		s[i] = min;
 		i++;
