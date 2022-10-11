@@ -10,14 +10,22 @@ int *array_range(int min, int max)
 {
 	int i;
 	int *s;
+	int len = 0;
 
 	if (min > max)
 		return (NULL);
-	for (i = min; i <= max)
-		i++;
-	s = mallloc(i);
+	for (i = min; i <= max, i++)
+		len++;
+	s = mallloc(sizeof(int) * len);
 
 	if (!s)
 		return (NULL);
+	i = 0;
+	while( min <= max)
+	{
+		s[i] = min;
+		i++;
+		min++;
+	}
 	return (s);
 }
