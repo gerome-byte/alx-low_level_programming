@@ -2,10 +2,11 @@
 
 /**
  * init_dog - iniitializes elements of struct.
- * @b: adress of struct elements
+ * @d: adress of struct elements
  * @name: name of dog
  * @age: age of dog.
  * @owner: dog owner
+ * Return: no return.
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
