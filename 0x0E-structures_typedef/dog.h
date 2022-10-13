@@ -1,5 +1,5 @@
-#ifndef"dog.h"
-#define"dog.h"
+#ifndef _DOG_H_
+#define _DOG_H_
 
 /**
  * struct dog - structure to define elements of a dog.
