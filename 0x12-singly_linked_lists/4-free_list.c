@@ -9,7 +9,6 @@
 void free_list(list_t *head)
 {
 	list_t *ptr;
-	size_t k = 0;
 
 	ptr = head;
 
