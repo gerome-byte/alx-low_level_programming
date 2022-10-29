@@ -29,13 +29,13 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 
 	if (index == 0)
 	{
-		xtr->next = xtr->next->next;
-		*head = xtr->next;
+		xtr->next = ptr->next;
 		free(ptr);
 	}
 	else
 	{
 		free(xtr);
+		*head = ptr;
 	}
 	return (1);
 }
