@@ -1,4 +1,4 @@
-#include"main.c"
+#include"main.h"
 /**
  * print_binary - prints binary rep of digits.
  * @n: digit to be converted to binary.
@@ -7,16 +7,14 @@
 
 void print_binary(unsigned long int n)
 {
-	unsigned int i = 31;
-	unsigned int mask;
-
-	for (; i >= 0; i--)
+	if (n >> 0)
 	{
-		mask = (1 << i);
-		if (n & mask)
-			printf("1");
-		else
-			printf("0");
+		if (n >> 1)
+			print_binary(n >> 1);
+		_putchar((n & 1) + '0');
+	}
+	else
+	{
+		_putchar('0');
 	}
 }
-
